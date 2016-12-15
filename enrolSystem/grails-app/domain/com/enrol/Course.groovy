@@ -21,7 +21,7 @@ department blank:false, nullable:false
 leader blank:false, nullable:false
 code blank:false, nullable:false
 
-numberOfStudents blank:false, nullable:false min:20, max:60
+numberOfStudents blank:false, nullable:false, min:20, max:60
 
 startDate blank:false, nullable:false
 endDate blank:false, nullable:false
