@@ -3,13 +3,25 @@ package com.enrol
 class Student {
 
 String name
-String studentID
+String studentID                               //declared variables
 Date dob
 Boolean isFundingAvailable
 String stuemail
 String username
 String password
 String course
+
+String toString(){
+
+"$name,$studentID,$course"
+}
+
+
+
+
+
+
+
 
     static constraints = {
 
